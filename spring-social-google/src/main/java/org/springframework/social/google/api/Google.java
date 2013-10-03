@@ -16,6 +16,7 @@
 package org.springframework.social.google.api;
 
 import org.springframework.social.ApiBinding;
+import org.springframework.social.google.api.contacts.ContactsOperations;
 import org.springframework.social.google.api.drive.DriveOperations;
 import org.springframework.social.google.api.impl.GoogleTemplate;
 import org.springframework.social.google.api.plus.PlusOperations;
@@ -84,4 +85,6 @@ public interface Google extends ApiBinding {
 	 * @return The OAuth2 access token
 	 */
 	String getAccessToken();
+
+    ContactsOperations contactOperations();
 }

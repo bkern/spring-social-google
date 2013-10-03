@@ -1,0 +1,142 @@
+{
+  "version": "1.0",
+  "encoding": "UTF-8",
+  "feed": {
+    "xmlns": "http:\/\/www.w3.org\/2005\/Atom",
+    "xmlns$openSearch": "http:\/\/a9.com\/-\/spec\/opensearch\/1.1\/",
+    "xmlns$gContact": "http:\/\/schemas.google.com\/contact\/2008",
+    "xmlns$batch": "http:\/\/schemas.google.com\/gdata\/batch",
+    "xmlns$gd": "http:\/\/schemas.google.com\/g\/2005",
+    "gd$etag": "W\/\"AkcFSXo_eyt7I2A9Wh5TF0s.\"",
+    "id": {
+      "$t": "bskern@gmail.com"
+    },
+    "updated": {
+      "$t": "2013-10-03T02:40:18.443Z"
+    },
+    "category": [
+      {
+        "scheme": "http:\/\/schemas.google.com\/g\/2005#kind",
+        "term": "http:\/\/schemas.google.com\/contact\/2008#contact"
+      }
+    ],
+    "title": {
+      "$t": "Barry Kern's Contacts"
+    },
+    "link": [
+      {
+        "rel": "alternate",
+        "type": "text\/html",
+        "href": "http:\/\/www.google.com\/"
+      },
+      {
+        "rel": "http:\/\/schemas.google.com\/g\/2005#feed",
+        "type": "application\/atom+xml",
+        "href": "https:\/\/www.google.com\/m8\/feeds\/contacts\/bskern%40gmail.com\/full"
+      },
+      {
+        "rel": "http:\/\/schemas.google.com\/g\/2005#post",
+        "type": "application\/atom+xml",
+        "href": "https:\/\/www.google.com\/m8\/feeds\/contacts\/bskern%40gmail.com\/full"
+      },
+      {
+        "rel": "http:\/\/schemas.google.com\/g\/2005#batch",
+        "type": "application\/atom+xml",
+        "href": "https:\/\/www.google.com\/m8\/feeds\/contacts\/bskern%40gmail.com\/full\/batch"
+      },
+      {
+        "rel": "self",
+        "type": "application\/atom+xml",
+        "href": "https:\/\/www.google.com\/m8\/feeds\/contacts\/bskern%40gmail.com\/full?alt=json&max-results=1"
+      },
+      {
+        "rel": "next",
+        "type": "application\/atom+xml",
+        "href": "https:\/\/www.google.com\/m8\/feeds\/contacts\/bskern%40gmail.com\/full?alt=json&start-index=6&max-results=1"
+      }
+    ],
+    "author": [
+      {
+        "name": {
+          "$t": "Barry Kern"
+        },
+        "email": {
+          "$t": "bskern@gmail.com"
+        }
+      }
+    ],
+    "generator": {
+      "version": "1.0",
+      "uri": "http:\/\/www.google.com\/m8\/feeds",
+      "$t": "Contacts"
+    },
+    "openSearch$totalResults": {
+      "$t": "1158"
+    },
+    "openSearch$startIndex": {
+      "$t": "1"
+    },
+    "openSearch$itemsPerPage": {
+      "$t": "5"
+    },
+    "entry": [
+      {
+        "gd$etag": "\"R3c7cTVSLit7I2A9WhRVFEsNQQc.\"",
+        "id": {
+          "$t": "http:\/\/www.google.com\/m8\/feeds\/contacts\/bskern%40gmail.com\/base\/8223e0addfd28"
+        },
+        "updated": {
+          "$t": "2012-01-13T15:13:56.909Z"
+        },
+        "app$edited": {
+          "xmlns$app": "http:\/\/www.w3.org\/2007\/app",
+          "$t": "2012-01-13T15:13:56.909Z"
+        },
+        "category": [
+          {
+            "scheme": "http:\/\/schemas.google.com\/g\/2005#kind",
+            "term": "http:\/\/schemas.google.com\/contact\/2008#contact"
+          }
+        ],
+        "title": {
+          "$t": "TEST TEST"
+        },
+        "link": [
+          {
+            "rel": "http:\/\/schemas.google.com\/contacts\/2008\/rel#photo",
+            "type": "image\/*",
+            "href": "https:\/\/www.google.com\/",
+            "gd$etag": "\"Rg1TGAE8Sit7I2B7PnwGWk1dSBk0BP0cXbjs.\""
+          },
+          {
+            "rel": "self",
+            "type": "application\/atom+xml",
+            "href": "https:\/\/www.google.com\/"
+          },
+          {
+            "rel": "edit",
+            "type": "application\/atom+xml",
+            "href": "https:\/\/www.google.com\/"
+          }
+        ],
+        "gd$name": {
+          "gd$fullName": {
+            "$t": "test test"
+          },
+          "gd$givenName": {
+            "$t": "test"
+          },
+          "gd$familyName": {
+            "$t": "test"
+          }
+        },
+        "gContact$website": [
+          {
+            "href": "http:\/\/www.google.com",
+            "rel": "profile"
+          }
+        ]
+      }
+    ]
+  }
+}

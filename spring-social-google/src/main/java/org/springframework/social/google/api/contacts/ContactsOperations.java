@@ -1,11 +1,9 @@
 package org.springframework.social.google.api.contacts;
 
-/**
- * Created with IntelliJ IDEA.
- * User: bkern
- * Date: 9/23/13
- * Time: 9:43 PM
- * To change this template use File | Settings | File Templates.
- */
-public class ContactsOperations {
+
+import java.util.List;
+
+public interface ContactsOperations {
+
+   Contact getContacts();
 }
